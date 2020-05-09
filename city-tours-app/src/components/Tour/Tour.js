@@ -10,7 +10,7 @@ export default class Tour extends Component {
         return (
             <article className="tour">
                 <div className="img-container">
-                    <img src="" alt="" />
+                    <img src={img} alt="" />
                     <span className="colse-btn">
                         <i className="fas fa-window-close" />
                     </span>
@@ -18,7 +18,7 @@ export default class Tour extends Component {
                 <div className="tour-info">
                     <h3>{city}</h3>
                     <h4>{name}</h4>
-                    <h5>Infro <span><i className="fas fa-caret-square-down" /></span></h5>
+                    <h5>Info{" "} <span><i className="fas fa-caret-square-down" /></span></h5>
                     <p>{info}</p>
                 </div>
             </article>
